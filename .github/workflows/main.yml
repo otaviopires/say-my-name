@@ -6,7 +6,7 @@ jobs:
                 name: Say My Name Action
                 runs-on: ubuntu-latest
                 steps:
-                        - uses: actions/checkou@v1
+                        - uses: actions/checkout@v1
                         - uses: ./say-my-name
                           with:
                                   MY_NAME: "Otavio"
