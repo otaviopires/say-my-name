@@ -1,0 +1,12 @@
+name: A workflow for my Say My Name Action
+on: push
+
+jobs:
+        build:
+                name: Say My Name Action
+                runs-on: ubuntu-latest
+                steps:
+                        - uses: actions/checkout@v1
+                        - uses: ./say-my-name
+                          with:
+                                  MY_NAME: "Otavio"
