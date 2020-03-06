@@ -1,7 +1,7 @@
 name: A workflow for my Say My Name Action
 on: push
 
-job:
+jobs:
         build:
                 name: Say My Name Action
                 runs-on: ubuntu-latest
