@@ -1,0 +1,14 @@
+name: "Say My Name"
+description: "Print my name on the console"
+author: "otavio.silva.pires@gmail.com"
+inputs:
+        MY_NAME:
+                description: "Store my name in a variable"
+                required: true
+                default: "Otavio"
+runs:
+        using: "docker"
+        image: "Dockerfile"
+branding:
+        icon: "mic"
+        color: "blue"
